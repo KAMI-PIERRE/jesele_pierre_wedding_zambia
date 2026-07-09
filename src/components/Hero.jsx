@@ -37,14 +37,23 @@ export default function Hero() {
             {coupleInfo.fullNames}
           </h1>
           <p className="mt-6 text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide drop-shadow-[0_0_30px_rgba(212,175,55,0.6)]">
-            <span className="text-gold">22</span> <span className="text-white">November</span> <span className="text-gold">2026</span>
+            <span className="text-gold">05</span> <span className="text-white">September</span> <span className="text-gold">2026</span>
           </p>
           <p className="mt-2 text-lg sm:text-xl text-gold/90 font-semibold tracking-[0.25em] uppercase">
-            15:00 hrs · Lusaka
+            Wedding Ceremony
           </p>
           <p className="mt-4 text-base sm:text-lg text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Reception
+            An intimate celebration of love, family, and the start of forever.
           </p>
+
+          <div className="mt-8 pt-6 border-t border-white/25 max-w-md mx-auto">
+            <p className="text-xs sm:text-sm text-white/70 tracking-[0.2em] uppercase">
+              Reception for family & friends in Lusaka
+            </p>
+            <p className="mt-1 text-xl sm:text-2xl font-semibold text-gold drop-shadow-[0_0_20px_rgba(212,175,55,0.5)]">
+              22 November 2026 · 15:00 hrs
+            </p>
+          </div>
         </motion.div>
 
         <motion.button

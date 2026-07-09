@@ -7,6 +7,10 @@ export const coupleInfo = {
   bride: "Gisele",
   groom: "Pierre",
   fullNames: "Gisele & Pierre",
+  // The wedding ceremony itself — this is the main event
+  weddingCeremonyDate: "2026-09-05T00:00:00",
+  weddingCeremonyDateFormatted: "05 September 2026",
+  // The Lusaka reception — additional celebration for guests based in Zambia
   weddingDate: "2026-11-22T15:00:00",
   weddingDateFormatted: "22 November 2026",
   tagline: "Reception",

@@ -99,6 +99,25 @@ export default function Footer() {
             </motion.div>
 
             <motion.div
+              className="mx-auto mb-10 max-w-xl rounded-2xl border border-gold/30 bg-gold/5 px-6 py-5 text-center"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.15, duration: 0.6 }}
+            >
+              <p className="font-serif text-gray-700 text-sm leading-relaxed">
+                <span className="text-gold font-semibold">Please note:</span>{" "}
+                our wedding ceremony will be held on{" "}
+                <span className="font-semibold">5th September 2026</span>, an
+                intimate celebration of love, family, and the start of
+                forever. This invitation is for our{" "}
+                <span className="font-semibold">Reception in Lusaka, Zambia</span>{" "}
+                on <span className="font-semibold">22nd November 2026</span>,
+                where we'd love to celebrate with you.
+              </p>
+            </motion.div>
+
+            <motion.div
               className="flex flex-wrap justify-center gap-4 mb-12"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}

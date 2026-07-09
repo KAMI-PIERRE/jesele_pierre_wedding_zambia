@@ -39,7 +39,7 @@ function CountdownBox({ value, label }) {
 }
 
 export default function BibleVerse() {
-  const countdown = useCountdown(coupleInfo.weddingDate);
+  const countdown = useCountdown(coupleInfo.weddingCeremonyDate);
 
   return (
     <section
@@ -77,7 +77,7 @@ export default function BibleVerse() {
               Counting Down
             </p>
             <h3 className="font-serif text-3xl sm:text-4xl md:text-5xl text-gray-900 font-semibold mb-6 sm:mb-8">
-              Until {coupleInfo.weddingDateFormatted}
+              Until {coupleInfo.weddingCeremonyDateFormatted}
             </h3>
             <div className="grid grid-cols-4 gap-2 sm:gap-4 mb-8 sm:mb-12">
               <CountdownBox value={countdown.days} label="Days" />
